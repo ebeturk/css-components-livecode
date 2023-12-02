@@ -1,4 +1,5 @@
-@import url(./stylesheets/container.css);
+@import url(./components/container.css);
+@import url(./components/card.css);
 
 /* Feel free to overwrite these font-families: */
 body {
