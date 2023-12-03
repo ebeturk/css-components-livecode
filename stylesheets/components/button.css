@@ -1,0 +1,20 @@
+.btn-purchase {
+  background-color: lightblue;
+  width: 200px;
+  font-family: 'Dosis';
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(99, 47, 184);
+  padding: 12px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 24px;
+  box-shadow: 8px 6px 8px rgba(0, 0, 255, 0.298);
+}
+
+.btn-purchase:hover {
+  background-color: rgb(70, 174, 208);
+  color: rgb(223, 226, 171);
+  box-shadow: 8px 6px 8px rgba(223, 226, 171, 0.298);
+}

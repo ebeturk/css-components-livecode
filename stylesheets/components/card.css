@@ -1,0 +1,88 @@
+
+.card-invitation {
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+}
+
+.card-invitation img {
+  width: 15vw;
+  height: 15vw;
+  /* height: 220px; */
+  border-radius: 12px;
+  position: relative;
+}
+.infos {
+  max-width: 40vw;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .infos {
+      padding-left: 4px;
+  }
+}
+
+.infos h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 6px 0;
+  color: slateblue;
+}
+
+.infos p {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+i {
+  color: gold;
+  font-size: 28px;
+}
+
+.video {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.video iframe {
+  width: 80%;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.card-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 12vw;
+  background-size: cover;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.372);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.card-category:nth-child(1) {
+  background-image: linear-gradient(rgba(240,240,240, 0.2), rgba(240,240,240, 0.3)), url(../../images/air_of_grievances.png);
+}
+.card-category:nth-child(2) {
+  background-image: linear-gradient(rgba(240,240,240, 0.2), rgba(240,240,240, 0.3)), url(../../images/feats_of_strength_bru.png);
+}
+.card-category:nth-child(3) {
+  background-image: linear-gradient(rgba(240,240,240, 0.2), rgba(240,240,240, 0.3)), url(../../images/meatloaf.png);
+}
